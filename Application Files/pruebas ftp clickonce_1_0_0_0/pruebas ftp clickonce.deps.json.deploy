@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "pruebas ftp clickonce/1.0.0": {
+        "runtime": {
+          "pruebas ftp clickonce.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "pruebas ftp clickonce/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
