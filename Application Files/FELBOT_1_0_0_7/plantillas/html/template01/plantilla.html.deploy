@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0113)https://felgttestaws.digifact.com.gt/guest/api/FEL?DATA=44653948|75693780-541F-45A3-A947-6485D6542D17|GUESTUSERQR -->
+<html xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:camb="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" xmlns:dtesp="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0" xmlns:dteref="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0" xmlns:exp="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0" xmlns:adenda="https://www.digifact.com.gt/dtecomm">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>DTE   </title>
+      <style type="text/css">
+         .wrapper{
+         position:relative;
+         }
+         .right{
+         width:80%;
+         position:absolute;
+         }
+         .left{
+         width:20%;
+         position:absolute;
+         }
+         .right{
+         right:0;
+         }
+         .left{
+         left:0;
+         }
+         .border-all-2
+         {
+         border:1px solid #a1a1a1;
+         padding:5px 0px;
+         border-radius:5px 5px 5px 5px;
+         }
+         .bordertop-left{
+         color:white;
+         border:0px solid #a1a1a1;
+         padding:5px 0px;
+         border-radius:5px 0px 0px 0px;
+         }
+         .border-line{
+         color:white;
+         border:0px solid #a1a1a1;
+         padding:5px 0px;
+         }
+         .border-all{
+         color:white;
+         border:0px solid #a1a1a1;
+         padding:5px 0px;
+         border-radius:5px 5px 5px 5px;
+         }
+         .bordertop-rigth{
+         color:white;
+         border:0px solid #a1a1a1;
+         padding:5px 0px;
+         border-radius:0px 5px 0px 0px;
+         }
+         .borderbuttom-left{
+         color:white;
+         border:0px solid #a1a1a1;
+         padding:5px 0px;
+         border-radius:5px 0px 0px 0px;
+         }
+         .borderbuttom-rigth{
+         color:white;
+         border:0px solid #a1a1a1;
+         padding:5px 0px;
+         border-radius:5px 0px 0px 0px;
+         }
+         body {
+         background-color: transparent;
+         padding: 0in;
+         margin: 0;
+         font-family: Arial;
+         font-size: 7pt;
+         text-align: left;
+         }
+         .page {
+         margin: 0;
+         padding: 0.25in;
+         width: 8in;
+         font-family: Arial;
+         font-size: 7pt;
+         text-align: left;
+         background: white;
+         }
+         .page_ANULADO {
+         margin: 0;
+         padding: 0.25in;
+         width: 8in;
+         font-family: Arial;
+         font-size: 7pt;
+         text-align: left;        
+         backgroun:transparent;
+         background-image:url('http://10.1.10.3:8097/mx.com.fact.res/logo/watermark_anulada.png');
+         background-repeat: repeat;
+         }
+         /* Table */
+         table {
+         font-family: Arial;
+         font-size: 7pt;
+         text-align: left;
+         background: transparent;
+         /*
+         border-color: #808080;
+         border-style: solid;
+         border-width: 1px;
+         */
+         }
+         td {
+         vertical-align: top;
+         border-color: #808080;
+         /*
+         border-bottom-style: solid;
+         border-bottom-width: 1px;
+         */
+         padding-left: 0.02in;
+         padding-right: 0.02in;
+         padding-top: 0.02in;
+         padding-bottom: 0.02in;
+         }
+         td .free {
+         vertical-align: top;
+         width: 100%;
+         border-color: #808080;
+         /*
+         border-bottom-style: solid;
+         border-bottom-width: 1px;
+         */
+         padding-right: 0.0in;
+         padding-top: 0.02in;
+         padding-bottom: 0.02in;
+         }
+         .vcenter {
+         vertical-align: middle;
+         }
+         .hright {
+         text-align: right;
+         }
+         .hcenter {
+         text-align: center;
+         }
+         .hleft {
+         text-align: left;
+         }
+         .nowidth {
+         width: 10%;
+         }
+         hr {
+         height:1px;
+         background-color: #808080;
+         border: 0;
+         /* for ie */
+         width: 100%;
+         color: #808080;
+         }
+         hr .low {
+         height:1px;
+         background-color: #808080;
+         border: 0;
+         /* for ie */
+         width: 50%;
+         color: #808080;
+         padding: 0;
+         margin:0;
+         }
+         /* Styling */
+         pre {
+         font-family: "Courier New";
+         font-size: 7pt;
+         padding: 0;
+         margin: 0;
+         text-align: left;
+         /* to compensate for fort metrics */
+         }
+         h3 {
+         font-family: Arial;
+         font-size: 12pt;
+         /*
+         text-align: left;
+         background: white;
+         border-color: #808080;
+         border-style: solid;
+         border-width: 1px;
+         */
+         }
+      </style>
+   </head>
+   <body>
+      <div class="page">
+         <table border="0" width="100%" cellspacing="0" cellpadding="0">
+         </table>
+         <table border="0" width="100%" cellspacing="0" cellpadding="0">
+            <tbody>
+               <tr>
+                  <td width="25%">
+                     <table width="100%" cellpadding="0" cellspacing="">
+                        <tbody>
+                           <tr>
+                              <td><img src="@LOGO" width="80" height="80" alt="[logo]" align="left"><br></td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </td>
+                  <td align="center" colspan="2" width="55%">
+                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                           <tr>
+                              <td colspan="3" align="center">
+                                 <b style="font-family:arial;font-size:16px;">
+                                    <div class="border-all" style="background-color: #0D62AB;">@NOMBRE_COMERCIAL</div>
+                                 </b>
+                                 <br>NIT: @NIT_EMISOR<br>@DIRECCION_EMISOR<br><br>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </td>
+                  <td width="20%" align="center">
+                     <br><br><br>
+                     <div class="border-all-2">
+                        <b style="font-family:arial;font-size:9px;">FACTURA</b><br>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td><b>Serie:</b></td>
+                              </tr>
+                              <tr>
+                                 <td>@SERIE</td>
+                              </tr>
+                              <tr>
+                                 <td><b>No.: </b></td>
+                              </tr>
+                              <tr>
+                                 <td>@NUMERO</td>
+                              </tr>
+                              <tr>
+                                 <td><b>No. Autorizacion: </b></td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2">@AUTORIZACION</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                     <br><br><br>
+                  </td>
+               </tr>
+               <tr>
+                  <td align="left"><b>NIT: @NIT_RECEPTOR</b></td>
+                  <td colspan="2" align="center"></td>
+                  <td align="center" style="color:white;border-width: 1px; border-left-style: solid; border-right-style: solid; border-collapse:collapse; border: none; border-top-style: solid; border-bottom-style: none">
+                     <div class="border-all" style="background-color: #0D62AB;">
+                        <b>GUATEMALA, </b>@FECHA_EMISION
+                     </div>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         <table border="0" width="100%" cellspacing="0" cellpadding="0">
+            <tbody>
+               <tr>
+                  <td width="10%" style="border-color: #0D62AB;border-width: 1px; border-left-style: solid; border-right-style: none; border-top-style: solid; border-bottom-style: solid">
+                     <b>NOMBRE: </b><br>
+                     <b>DIRECCIÓN: </b><br><br>
+                  </td>
+                  <td width="30%" align="left" style="border-color: #0D62AB;border-width: 1px; border-left-style: none; border-right-style: none; border-top-style: solid; border-bottom-style: solid"><b>@NOMBRE_RECEPTOR</b><br>@DIRECCION_RECEPTOR</td>
+                  <td width="5%" style="border-color: #0D62AB;border-width: 1px; border-left-style: none; border-right-style: none; border-top-style: solid; border-bottom-style: solid">
+                     <b>NIT:</b>
+                  </td>
+                  <td width="5%" style="border-color: #0D62AB;border-width: 1px; border-left-style: none; border-right-style: none; border-top-style: solid; border-bottom-style: solid">
+                     <b>@NIT_RECEPTOR</b>
+                  </td>
+                  <td width="20%" style="border-color: #0D62AB;border-width: 1px; border-left-style: SOLID; border-right-style: none; border-top-style: solid; border-bottom-style: solid">
+                     <b>OBSERVACIONES: </b><br>@COMPLEMENTO
+                  </td>
+                  <td width="20%" style="border-color: #0D62AB;border-width: 1px; border-left-style: none; border-right-style: solid; border-top-style: solid; border-bottom-style: solid"></td>
+               </tr>
+            </tbody>
+         </table>
+         <br><br>
+         <table border="0" width="100%" cellspacing="0" cellpadding="0">
+            <thead>
+               <tr>
+                  <th height="20px" width="15%" class="hcenter" style="background-color: #0D62AB; color: white; border-radius: 5px 0 0 0">
+                     <b>CANTIDAD</b>
+                  </th>
+                  <th width="65%" class="hcenter" style="background-color: #0D62AB; color: white">DESCRIPCION</th>
+                  <th width="10%" class="hcenter" style="background-color: #0D62AB; color: white">P. UNITARIO</th>
+                  <th class="hcenter" width="10%" style="background-color: #0D62AB; color: white; border-radius: 0 5px 0 0">TOTAL</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+					@TABLA_DETALLE
+               </tr>
+
+					@TABLA_TOTALES
+               <tr>
+                  <td colspan="5">
+                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                           <tr>
+                              <td align="center">
+                                 <table>
+                                    <tbody>
+                                       <tr>
+                                          <td align="center"><b>@FRASE_TRIMESTRALES</b></td>
+                                       </tr>
+                                       <tr>
+                                          <td align="center"><img width="80" height="80" src="@RUTA_QR" alt="DTE" title="Su DTE FEL"></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr></tr>
+                           <tr></tr>
+                        </tbody>
+                     </table>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         <table border="0" width="100%" cellspacing="0" cellpadding="0">
+            <tbody>
+               <tr>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td align="center" colspan="4" style="border-radius: 5px 5px 0px 0px; border-color: #0D62AB;border-width: 1px; border-left-style: solid; border-right-style: solid; border-top-style: solid; border-bottom-style: solid;"><b>DATOS DEL CERTIFICADOR</b></td>
+               </tr>
+               <tr>
+                  <td style="border-radius: 0px 0px 5px 5px; border-color: #0D62AB;border-width: 1px; border-left-style: solid; border-right-style: solid; border-top-style: none; border-bottom-style: solid;">@CERTIFICADOR Fecha Hora Certificacion:  @FECHA_CERTIFICACION</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </body>
+</html>
